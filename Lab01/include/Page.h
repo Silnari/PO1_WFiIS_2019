@@ -14,13 +14,10 @@ public:
 		return _text;
 	}
 
-	void setHeader(std::string header) {
+	void SetHeader(std::string header) {
 		_header = header;
 	}
-	
-	void SetHeader(std::string header) {
-		setHeader(header);
-	}
+
 
 private:
 	std::string _header;
