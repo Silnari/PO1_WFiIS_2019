@@ -18,6 +18,10 @@ public:
 		_header = header;
 	}
 	
+	void SetHeader(std::string header) {
+		setHeader(header);
+	}
+
 private:
 	std::string _header;
 	std::string _text;

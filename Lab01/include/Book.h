@@ -10,15 +10,15 @@ class Book
 public:
 	Book(std::string header): _header(header) {}
 
-	void AddPage(B5Page* page);
+	void AddPage(Page* page);
 
 	void Print();
 
 	void SetHeader(std::string header);
 
 private:
-	std::vector<B5Page> _book;
-	std::vector<B5Page*> _ebook;
+	std::vector<Page> _book;
+	std::vector<Page*> _ebook;
 	std::string _header;
 };
 
