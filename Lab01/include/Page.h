@@ -6,6 +6,7 @@ class Page
 public:
 	Page(std::string header, std::string text): _header(header), _text(text) {}
 
+
 	std::string getHeader() {
 		return _header;
 	}
